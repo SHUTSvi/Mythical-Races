@@ -211,8 +211,8 @@ races:
          - 'GENERIC_MOVEMENT_SPEED'
      nightPassiveGenericAttributesAmplifier:
          - 0.1
-   Dwarf:
-     displayName: '&7Dwarf'
+   assassins:
+     displayName: '&7pinto'
      material: 'BOOK'
      guiPage: 1
      slot: 12
@@ -223,37 +223,37 @@ races:
          - '&7They can also eat quite a bit... and empty a barrel of beer!'
          - ' '
          - '&5- - - - - Day Time Passive Effects - - - - -'
-         - '&5Haste III'
-         - '&5Gain four extra hearts'
-         - '&5Slowness I'
+         - '&5speed I'
+         - '&5strenght 1'
+         - '&5menos 3 corazao'
          - '&5- - - - - Night Time Passive Effects - - - - -'
-         - '&5Haste III'
-         - '&5Gain four extra hearts'
-         - '&5Slowness I'
+         - '&5speed 2'
+         - '&5strenght 1'
+         - '&5menos 2 corazaoI'
      dayPassivePotionEffects:
-         - 'FAST_DIGGING'
-         - 'SLOW'
+         - 'SPEED'
+         - 'INCREASE_DAMAGE'
      dayPassivePotionEffectsAmplifier:
-         - 2
+         - 0
          - 0
      dayPassiveGenericAttributes:
          - 'GENERIC_MOVEMENT_SPEED'
          - 'GENERIC_MAX_HEALTH'
      dayPassiveGenericAttributesAmplifier:
          - 0.1
-         - 28.0
+         - 17.0
      nightPassivePotionEffects:
-         - 'FAST_DIGGING'
-         - 'SLOW'
+         - 'SPEED'
+         - 'INCREASE_DAMAGE'
      nightPassivePotionEffectsAmplifier:
-         - 1
+         - 2
          - 0
      nightPassiveGenericAttributes:
          - 'GENERIC_MOVEMENT_SPEED'
          - 'GENERIC_MAX_HEALTH'
      nightPassiveGenericAttributesAmplifier:
          - 0.1
-         - 28.0
+         - 18.0
    Vampire:
      displayName: '&4Vampire'
      material: 'BOOK'
